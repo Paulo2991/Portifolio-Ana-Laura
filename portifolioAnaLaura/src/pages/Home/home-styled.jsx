@@ -14,7 +14,7 @@ export const Informacoes = styled.section`
 
   div {
     width: 50%;
-    height: 35vh;
+    height: 40vh;
     padding: 12px;
     background-color: white;
   }
