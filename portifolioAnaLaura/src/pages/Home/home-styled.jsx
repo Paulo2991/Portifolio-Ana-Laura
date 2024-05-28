@@ -4,6 +4,7 @@ export const Main = styled.main`
    background-color: darkblue;
    height: 100vh;
 `;
+
 export const Informacoes = styled.section`
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@ export const Informacoes = styled.section`
 
   div {
     width: 50%;
-    height: 30vh;
+    height: 35vh;
     padding: 12px;
     background-color: white;
   }
