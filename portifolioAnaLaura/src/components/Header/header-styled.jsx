@@ -14,15 +14,21 @@ export const GlobalStyled = createGlobalStyle`
 `;
 
 export const Header = styled.header`
-  background-color: darkblue;
+  background-color: #13af9a;
   height: 15vh;
 `;
 
 export const Foto = styled.img`
+  width: 80px;
+  height: 80px;
+  border-radius: 80%;
+  padding: 0.25em;
+
+  @media screen and (max-width: 600px) {
     width: 80px;
-    height: 80px;
-    border-radius: 80%;
-    padding: 0.25em;
+    height: 70px;
+    padding: 2px;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -37,6 +43,12 @@ export const Ul = styled.ul`
   display: flex;
   gap: 2rem;
   padding: 15px;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.10rem;
+  }
 `;
 
 export const Li = styled.li`
@@ -45,5 +57,13 @@ export const Li = styled.li`
 
   a {
     color: white;
+  }
+
+  @media screen and (max-width: 600px){
+     font-size: 10px;
+
+     a{
+        font-size: 18px;
+     }
   }
 `;
