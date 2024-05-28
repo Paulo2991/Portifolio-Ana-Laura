@@ -11,7 +11,7 @@ export const Informacoes = styled.section`
   justify-content: center;
   padding: 150px;
 
-  div{
+  div {
     width: 50%;
     height: 30vh;
     padding: 12px;
@@ -28,5 +28,26 @@ export const Informacoes = styled.section`
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+  }
+
+  p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    div {
+      height: 40vh;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div {
+      width: 60vw;
+      height: 45vh;
+      text-align: center;
+    }
   }
 `;
