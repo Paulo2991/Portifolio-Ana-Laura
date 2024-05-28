@@ -50,5 +50,9 @@ export const Informacoes = styled.section`
       height: 45vh;
       text-align: center;
     }
+
+    p {
+      font-size: 10px;
+    }
   }
 `;
